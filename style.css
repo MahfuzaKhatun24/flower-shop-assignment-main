@@ -1,102 +1,196 @@
- *{
-    padding: 0px;
-    margin: 0px;
+ * {
+     padding: 0px;
+     margin: 0px;
  }
- 
- .header{
-    background-color: bisque;
-}
-.banner{
-    padding: 30px 30px 0px 150px;
-    display: flex;
-    align-items: center; 
-    height: 80vh;
 
-}
-.banner-title{
-    color: black;
-    font-size: 45px;
-    font-style: normal;
-font-weight: 900px;
-line-height: 50px;
-}
-.btn-primary{
-    background-color: lightpink; 
-    border-radius: 5px;
-    border: 0px;
-    color: white;
-    font-size: 20px;
-    font-weight: 700;
-}
-.banner .profile-pic{
-    width: 600px;
-    
-    height: 100%;
-}
-.about{
-    padding: 130px;
-    background-color: floralwhite;
-border-radius: 10px;
-    margin: 50px;
-    text-align: center;
-    
-    
+ .header {
+     background-color: bisque;
+ }
 
-}
-.section-title{
-    color: black;
-    text-align: center;
-    font-size: 35px;
-    font-weight: 700;
-}
-.section-description{
-    color: black;
-    text-align: center;
-    font-size: 18px;
-}
-.underline{
-    text-decoration: underline;
-}
-.hot-deal{
-    padding: 150px;
-    background-color: lavenderblush;
-    border-radius: 10px;
-    margin: 50px;
-}
-.flowers{
-    
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10px;
+ .banner {
+     padding: 30px 30px 0px 150px;
+     display: flex;
+     align-items: center;
+     height: 80vh;
 
-}
-.flowers img {
-    width: 200px;
-    height: 300px;
-}
-.img-1{
-    border-top-left-radius:  350px;
-    border-top-right-radius: 350px;
-    background-color: fuchsia;
-    width: 300px;
-    height: 400px;
-    padding: 20px;
-    
-} 
-.img-2{
-    border-top-left-radius: 350px;
-    border-top-right-radius: 350px;
-    background-color: lightblue;
-    width: 300px;
-    height: 400px;
-    padding: 20px;
-} 
-.img3{
-border-top-left-radius: 350px;
-border-top-right-radius: 350px;
-    background-color: grey;
-    width: 300px;
-    height: 400px;
-    padding: 20px;
-}
+ }
+
+ .banner-title {
+     color: black;
+     font-size: 45px;
+     font-style: normal;
+     font-weight: 900px;
+     line-height: 50px;
+ }
+
+ .btn-primary {
+     background-color: rgb(231, 16, 48);
+     border-radius: 5px;
+     border: 0px;
+     color: white;
+     font-size: 20px;
+     font-weight: 700;
+     padding: 7px 15px;
+     margin-top: 10px;
+ }
+
+ .banner .profile-pic {
+     width: 600px;
+
+     height: 100%;
+ }
+
+ .about {
+     padding: 130px;
+     background-color: white;
+     border-radius: 10px;
+     margin: 50px;
+     text-align: center;
+
+
+
+ }
+
+ .section-title {
+     color: black;
+     text-align: center;
+     font-size: 35px;
+     font-weight: 700;
+ }
+
+ .section-description {
+     color: black;
+     text-align: center;
+     font-size: 18px;
+ }
+
+ .underline {
+     text-decoration: underline;
+ }
+
+ .hot-deal {
+     padding: 50px;
+     background-color: bisque;
+     text-align: center;
+     width: 100%;
+
+
+ }
+
+
+
+ .flex-deal {
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     width: 100%;
+
+
+ }
+
+ .deal-info {
+     width: 40%;
+
+
+ }
+
+ .hot-deal-title {
+     margin-bottom: 10px;
+     font-size: 32px;
+ }
+
+ .off {
+     color: #e01234;
+ }
+
+ .flowers {
+
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     gap: 10px;
+
+
+ }
+
+ .description {
+     padding-top: 30px;
+     padding-bottom: 30px;
+ }
+
+ .flowers img {
+     width: 200px;
+     height: 300px;
+ }
+
+ .img-1 {
+     border-top-left-radius: 350px;
+     border-top-right-radius: 350px;
+     background-color: fuchsia;
+     width: 300px;
+     height: 400px;
+     padding: 20px;
+
+ }
+
+ .img-2 {
+     border-top-left-radius: 350px;
+     border-top-right-radius: 350px;
+     background-color: lightblue;
+     width: 300px;
+     height: 400px;
+     padding: 20px;
+ }
+
+ .img3 {
+     border-top-left-radius: 350px;
+     border-top-right-radius: 350px;
+     background-color: grey;
+     width: 300px;
+     height: 400px;
+     padding: 20px;
+ }
+
+ .instragram {
+     background-color: white;
+     text-align: center;
+     padding: 50px;
+     margin: 20px;
+ }
+
+ .instragram-images {
+     display: flex;
+     align-items: center;
+     gap: 15px;
+ }
+
+ .instragram-img {
+     width: 250px;
+ }
+
+ .imc1 {
+     background-color: gray;
+     width: 250px;
+     height: 300px;
+     padding: 20px;
+ }
+
+ .imc2 {
+     background-color: pink
+     width: 250px;
+     height: 300px;
+     padding: 20px;
+ }
+
+ .imc3 {
+     background-color: lightblue;
+     width: 250px;
+     height: 300px;
+  padding: 20px;}
+
+ .imc4 {
+     background-color: burlywood;
+     width: 250px;
+     height: 300px;
+     padding: 20px;
+ }
