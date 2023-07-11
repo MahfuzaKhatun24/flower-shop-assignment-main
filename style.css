@@ -1,0 +1,27 @@
+.header{
+    background-color: bisque;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+
+}
+.banner-title{
+    color: black;
+    font-size: 45px;
+    font-style: normal;
+font-weight: 900px;
+line-height: 50pxs;
+.btn-primary{
+    background-color: lightpink; 
+    border-radius: 5px;
+    border: 0px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.banner .profile-pic{
+    width: 300px;
+
+}
